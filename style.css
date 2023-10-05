@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    --font-family:'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    height: 100vh;
+    place-content: center;
+    place-items: center;
+    gap: 19.2rem;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#timer {
+    color: #323238;
+    font-family: var(--font-family);
+    font-size: 12.6rem;
+    font-weight: 500;
+}
+#controls {
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+#controls button {
+    color: #323238;
+    font-size: 5rem;
+}
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+}
+.block-cards-tree, .block-cards-cloud, .block-cards-house, .block-cards-fire {
+    display: flex;
+    justify-content: center;
+    width: 13.8rem;
+    height: 15.2rem;
+    background-color: #E1E1E6;
+    border-radius: 2.4rem;
+}
+
